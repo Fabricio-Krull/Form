@@ -119,8 +119,7 @@ public class Form extends JFrame{
         nomeField.setBackground(new Color(229, 228, 226));
         nomeField.setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0)));
         nomeField.addActionListener(e -> {
-                this.setTitle("Formulário de " + nomeField.getText());
-                amIAuthenticated = true;
+            this.setTitle("Formulário de " + nomeField.getText());
         });
 
         // ================================ Row 2 ================================ //
